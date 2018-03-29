@@ -50,11 +50,11 @@ public class RowToPOJOConverter {
 
             //go through all the mappings and look at the headers to see if
             //we have data that matches the field to create a property -> value mapping
-            mappings.forEach((key, value1) -> {
+            mappings.forEach((key, field) -> {
                 Integer index = headers.get(key);
                 if (index != null) {
                     Object value = r.size() > index ? r.get(index) : null;
-                    localClazzData.put(value1, value);
+                    localClazzData.put(field, value);
                 } else {
                     log.trace("Could not find mapping for {}", key);
                 }
