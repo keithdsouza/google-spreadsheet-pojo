@@ -22,6 +22,6 @@ public class Spreadsheet {
 
     public Sheet findSheet(@NonNull String name) {
         Optional<Sheet> sheet = sheets.stream().filter(s -> s.name.equalsIgnoreCase(name)).findFirst();
-        return sheet.isPresent() ? sheet.get() : null;
+        return sheet.orElseGet(null);
     }
 }

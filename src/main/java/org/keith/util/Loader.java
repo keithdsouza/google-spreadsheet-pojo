@@ -10,7 +10,7 @@ import org.keith.model.SpreadsheetMapping;
 import java.util.List;
 
 /**
- * Unfortunately Jackson does not support generic types to we have to load things indivdiaull
+ * Unfortunately Jackson does not support generic types to we have to load things individually
  *
  * @see https://github.com/FasterXML/jackson-databind/issues/1490
  *
