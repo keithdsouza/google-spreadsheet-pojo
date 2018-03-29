@@ -53,7 +53,7 @@ public class ConverterSample {
         Sheet sheet = spreadsheet.findSheet(sheetName);
 
         List<List<Object>> data = converter.getService()
-                .get(spreadsheet.getId(), String.format("%s!%s", sheet.getName(), sheet.getRange())).getValues();
+                .get(spreadsheet.getId(), sheet.getRange()).getValues();
 
         //get all mappings for all spreadsheets, usually you will call a central service to get this
         SpreadsheetMapping mappingToWorkWith = converter.getMappings().get(spreadSheetName);

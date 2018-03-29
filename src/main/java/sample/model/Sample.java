@@ -1,6 +1,7 @@
 package sample.model;
 
 import lombok.Data;
+import org.keith.model.SpreadsheetRow;
 
 import java.util.Date;
 
