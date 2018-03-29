@@ -1,0 +1,13 @@
+.idea
+.DS_Store
+bin
+test-bin
+build
+*.iml
+*.project
+*.classpath
+target
+.settings
+application.properties
+client_secret.json
+/src/main/resources/client_secret.json

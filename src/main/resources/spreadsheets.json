@@ -1,0 +1,14 @@
+[
+  {
+    "name": "SampleSpreadsheet",
+    "id": "YourSpreadsheetId",
+    "_comment": "Name and id of the Google spreadsheet",
+    "sheets": [
+      {
+        "name": "SampleSheet",
+        "range": "A1:G",
+        "_comment": "Name and range of the individual sheet, assuming range includes a header row to convert to a POJO, you can have multiples"
+      }
+    ]
+  }
+]

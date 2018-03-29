@@ -1,0 +1,19 @@
+[
+  {
+    "name": "SampleSpreadsheet",
+    "sheetMappings": [
+      {
+        "name": "SampleSheet",
+        "mappings": {
+          "Product": "product",
+          "Store": "store",
+          "Quantity": "quantity",
+          "Price": "price",
+          "Percent": "percent",
+          "Date": "date",
+          "Status": "status"
+        }
+      }
+    ]
+  }
+]
